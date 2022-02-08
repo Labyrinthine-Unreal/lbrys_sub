@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaurosDAO search V1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscroll/2.4.1/jquery.jscroll.min.js"></script>
+</head>
+<style>
+  div.a {
+          text-align: center;
+  }
+  </style>  
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand">TaurosDAO search</a>
+
+    
+      </div>
+  </nav>
+</div>
+    </nav>
+        
+
+     <div class="a">
+<div class="container">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h2>TaurosDAO Search Engine</h2></div>
+      <div class="panel-body">
+</div><div class="a">
+
+Welcome To TaurosDAO Search Prototype
+<p>Answer: <a href="{{ answers }}" target="_blank">{{ answers }}</a></p>
+
+<form action="{{ url_for('answer') }}" method="post">
+
+	        <input
+
+          type="text"
+
+          name="Talk to the DAO oracle:"
+
+          placeholder="Talk to the DAO oracle:"
+
+          required="required"
+
+               />
+
+		<p><h3><button type="submit" class="btn btn-primary ">Submit</button><br><br><br><br>
+	</p>
+
+</form> 
+
+</body>
+  
+</html>
