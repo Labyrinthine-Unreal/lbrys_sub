@@ -20,6 +20,3 @@ This would create a serialized version of our model into a file model.pkl
 python app.py
 ```
 
-
-THE FINAL OUTPUT IS THE HEROKU HOST : https://c-force.herokuapp.com/   
-"# c-force-reg" 
